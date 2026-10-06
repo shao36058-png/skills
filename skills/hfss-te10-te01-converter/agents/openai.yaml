@@ -1,0 +1,4 @@
+interface:
+  display_name: "HFSS TE10 to TE01 Converter"
+  short_description: "Design and audit HFSS waveguide mode converters"
+  default_prompt: "Use $hfss-te10-te01-converter to review an existing HFSS mode converter and its saved modal results."

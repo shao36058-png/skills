@@ -9,6 +9,8 @@ metadata:
 
 # HFSS TE01 Circular-Waveguide Bend
 
+For a rectangular TE10-to-circular TE01 converter upstream of this bend, use the separate `hfss-te10-te01-converter` skill when available. Match aperture and modal bases at the interface; this bend's symmetry-specific port numbering is not a universal converter numbering.
+
 Use actual modal HFSS results to evaluate a circular-waveguide 90-degree miter bend. First establish the user's frequency, bandwidth, power-efficiency thresholds, length definition, permitted dimension changes, and current simulation state. This workflow targets circular guides, linear tapers, and a 45-degree miter reflector; do not substitute a smooth curved bend unless requested.
 
 ## Choose the current operation
