@@ -1,0 +1,4 @@
+interface:
+  display_name: "HFSS TE01 Bend Engineering"
+  short_description: "MATLAB screening, HFSS validation, and memory guards"
+  default_prompt: "Use $hfss-te01-bend to review or optimize my TE01 circular-waveguide bend; establish my requirements and inspect saved results before starting a solve."

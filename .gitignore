@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.aedt*
+*.pyaedt/
+*.s[0-9]*p
+*.pdf
+batch.log
+monitored_rerun/
+taper_checks.json
+dimension_candidates.csv
