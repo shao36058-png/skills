@@ -1,0 +1,4 @@
+interface:
+  display_name: "HFSS TE01 定向耦合器"
+  short_description: "复刻与调试圆波导 TE01 定向耦合器，核对模式、孔距和方向性"
+  default_prompt: "使用 $hfss-te01-directional-coupler 检查并调试我的圆波导 TE01 定向耦合器，验证端口模式、实际孔距和方向性。"

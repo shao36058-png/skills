@@ -8,8 +8,9 @@ Reusable electromagnetic-engineering Agent Skills by [shao36058-png](https://git
 |---|---|
 | [hfss-te01-bend](skills/hfss-te01-bend/SKILL.md) | TE01-to-TE01 circular-waveguide miter-bend convergence, MATLAB screening and modal acceptance |
 | [hfss-te10-te01-converter](skills/hfss-te10-te01-converter/SKILL.md) | Rectangular TE10-to-circular TE01 converter reproduction, port cutoff checks and saved modal-result auditing |
+| [hfss-te01-directional-coupler](skills/hfss-te01-directional-coupler/SKILL.md) | Circular TE01 orthogonal two-hole coupler: wave ports, broad-wall geometry, hole pitch, weak-signal convergence and saved-result audit |
 
-The two skills cover different components. Match apertures, reference planes and full modal bases before claiming performance of a combined transmission chain.
+These skills cover different components. Match apertures, reference planes and full modal bases before claiming performance of a combined transmission chain.
 
 ## HFSS TE01 Bend Engineering
 
@@ -41,6 +42,26 @@ npx skills add shao36058-png/skills --skill hfss-te10-te01-converter
 ```
 
 Invoke `$hfss-te10-te01-converter` with an open project or a saved modal export. Use `scripts/modal_metrics.py` for saved-result review; the exporter does not launch a solve. The portable skill contains no private workstation paths, original project, thesis PDF or native field data.
+
+## HFSS TE01 Directional Coupler
+
+This skill packages the best verified simplified 24 GHz circular TE01-to-rectangular-waveguide directional coupler. It includes one portable HFSS model archive without native field/mesh results, a read-only PyAEDT exporter, a standard-library CSV audit helper, and five solved reference frequency samples.
+
+At 24 GHz the reference model gives -62.35 dB coupled output, -109.80 dB isolated output and 47.45 dB directivity. Its actual hole-center pitches are X=4.90 mm and Z=5.04 mm. These optimized pitches differ from the paper's 2.45/2.44 mm labels; the package does not establish that the paper labels represent half-offsets. Standard-waveguide and transition sections described in the paper remain outside this simplified model. Five samples do not certify a continuously scanned bandwidth.
+
+The archive was restored and its geometry, ports and unique design/setup validated. The exporter was exercised against the saved best-design data, and the CSV auditor was checked against real results and invalid data. Creation of this skill did not launch another full-wave solve. A licensed HFSS installation is required to restore and solve the model; neither HFSS nor the source paper PDF is included.
+
+Install and invoke:
+
+```bash
+npx skills add shao36058-png/skills --skill hfss-te01-directional-coupler
+```
+
+Invoke `$hfss-te01-directional-coupler`, or audit the included reference data:
+
+```bash
+python skills/hfss-te01-directional-coupler/scripts/coupler_metrics.py --csv skills/hfss-te01-directional-coupler/assets/reference-results.csv --min-directivity 40
+```
 
 ## Example use
 
