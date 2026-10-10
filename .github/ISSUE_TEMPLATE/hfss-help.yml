@@ -1,0 +1,57 @@
+name: HFSS 问题与项目交流
+description: 描述端口、模式、几何、求解或数据审核问题，也可提出项目需求。
+title: "[HFSS] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        欢迎交流。请提供可公开的信息，方便理解你的结构、目标和已有结果。
+  - type: dropdown
+    id: component
+    attributes:
+      label: 组件类型
+      options:
+        - TE01 圆波导弯头
+        - TE10 → TE01 模式转换器
+        - TE01 双孔定向耦合器
+        - 其他波导结构
+    validations:
+      required: true
+  - type: dropdown
+    id: request
+    attributes:
+      label: 交流类型
+      options:
+        - 模型或结果问题
+        - 安装与脚本问题
+        - 功能建议
+        - 项目需求交流
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: 工作频率与软件版本
+      placeholder: "例如：24 GHz，HFSS 2025.2，Windows"
+    validations:
+      required: true
+  - type: textarea
+    id: goal
+    attributes:
+      label: 结构与目标
+      description: 说明输入/输出模式、主要尺寸、目标指标和目前的困难。
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 当前结果与复现步骤
+      description: 可以附可公开的曲线、端口场图、参数摘录或报错。尚未求解时请说明。
+    validations:
+      required: true
+  - type: textarea
+    id: attempted
+    attributes:
+      label: 已尝试的方法
+      description: 说明修改过的设置、几何或脚本，以及变化后的结果。
+

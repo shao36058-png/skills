@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+<title id="title">HFSS Waveguide Skills</title><desc id="desc">Reusable workflows for TE01 bends, TE10 to TE01 converters, and directional couplers. Modes, geometry, and evidence.</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101c32"/><stop offset="1" stop-color="#153d52"/></linearGradient></defs>
+<rect width="1200" height="320" rx="20" fill="url(#bg)"/>
+<g stroke="#79c8d8" opacity=".12"><path d="M0 80H1200M0 160H1200M0 240H1200M80 0V320M160 0V320M240 0V320M320 0V320M400 0V320M480 0V320M560 0V320M640 0V320M720 0V320M800 0V320M880 0V320M960 0V320M1040 0V320M1120 0V320"/></g>
+<rect x="56" y="49" width="184" height="28" rx="14" fill="#23495c"/><text x="148" y="68" text-anchor="middle" fill="#bce9ed" font-family="Arial, sans-serif" font-size="12" letter-spacing="2">MICROWAVE ENGINEERING</text>
+<text x="56" y="144" fill="#f5fafc" font-family="Arial, sans-serif" font-size="48" font-weight="700">HFSS Waveguide Skills</text>
+<text x="58" y="184" fill="#afc8d5" font-family="Arial, sans-serif" font-size="20">Modes. Geometry. Evidence.</text>
+<g font-family="Arial, sans-serif" font-size="15" fill="#d4e9ef"><text x="58" y="260">TE01 BENDS</text><text x="238" y="260">TE10 → TE01</text><text x="434" y="260">DIRECTIONAL COUPLERS</text></g>
+<g transform="translate(951 150)" fill="none" stroke="#82d6dc"><circle r="91" stroke-width="2"/><circle r="63" stroke-width="2" opacity=".6"/><circle r="36" stroke-width="2" opacity=".4"/><path d="M-74 54Q-114 0-74-54M74-54Q114 0 74 54" stroke-width="4"/><path d="M-74-54l-12 6m12-6l3 14M74 54l12-6m-12 6l-3-14" stroke-width="3"/></g>
+<text x="951" y="276" text-anchor="middle" fill="#afc8d5" font-family="Arial, sans-serif" font-size="14">CIRCULAR TE01</text>
+</svg>
+
