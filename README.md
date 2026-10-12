@@ -8,7 +8,9 @@
 
 *Reusable Agent Skills for HFSS waveguide engineering: circular TE01 bends, TE10–TE01 mode converters, and two-hole directional couplers.*
 
-[查看三个 Skills](#选择适合你的-skill) · [查看真实案例](#案例24-ghz-te₀₁-定向耦合器) · [快速开始](#快速开始) · [提问与项目交流](https://github.com/shao36058-png/skills/issues/new?template=hfss-help.yml)
+[SkillsMP 作者主页](https://skillsmp.com/creators/shao36058-png) · [查看三个 Skills](#选择适合你的-skill) · [查看真实案例](#案例24-ghz-te₀₁-定向耦合器) · [快速开始](#快速开始) · [提问与项目交流](https://github.com/shao36058-png/skills/issues/new?template=hfss-help.yml)
+
+**已收录 SkillsMP：** SkillsMP 支持团队已确认三个 HFSS skills 均已完成抓取与索引。当前分类仍待处理，关键词搜索结果可能尚未同步。[查看收录页面 →](https://skillsmp.com/creators/shao36058-png)
 
 ## 你正在遇到这些问题吗？
 
@@ -116,7 +118,9 @@ The coupler reference has **47.45 dB directivity at 24 GHz**. Its geometry diffe
 
 由 [shao36058-png](https://github.com/shao36058-png) 维护，采用 [MIT License](LICENSE)。分发的内容包含代码、流程和案例说明；使用者自行准备 HFSS，以及需要时的 MATLAB。
 
-[SkillsMP](https://skillsmp.com/about) 可用于发现公开 skills；该仓库目前未确认被收录。发布到 GitHub 不代表得到 Ansys、OpenAI、Anthropic 或技能市场的认证。
+SkillsMP 支持团队已确认本仓库的三个 skills 已被发现并完成索引，可从 [SkillsMP 作者主页](https://skillsmp.com/creators/shao36058-png) 查看。根据支持邮件，当前状态为“classification pending”（分类待处理），关键词搜索结果仍可能需要等待同步。状态依据：维护者收到的支持回复；更新日期：2026-10-12。
+
+收录是发现入口，不代表得到 Ansys、OpenAI、Anthropic 或技能市场的工程认证。
 
 **关键词：** HFSS · PyAEDT · waveguide · circular TE01 · TE10 to TE01 · directional coupler · 微波仿真 · 圆波导 · 模式转换 · 定向耦合器
 
