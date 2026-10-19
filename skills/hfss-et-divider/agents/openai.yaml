@@ -1,4 +1,0 @@
-interface:
-  display_name: "HFSS E-T 功分器"
-  short_description: "检查 E 面 T 形功分器的膜片匹配、反射、输出相位与保存结果"
-  default_prompt: "使用 $hfss-et-divider 检查当前 HFSS E-T 功分器，先核对端口、膜片尺寸和已有结果，再按指定频段调整匹配。"
