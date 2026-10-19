@@ -14,6 +14,20 @@
 
 **功分器已迁移：** E 面 T 形二路功分器技能 `hfss-et-divider` 已独立迁移至 [shao36058-png/-skills](https://github.com/shao36058-png/-skills)。安装命令、23–25 GHz 案例和验证范围请查看新仓库；本仓库保留以下三个 TE₀₁ 相关技能。
 
+## 分类与检索
+
+**作者分类：电子工程 → 射频与微波工程 / Electronics Engineering → RF and Microwave Engineering。**
+
+| 技能 | 器件细分 |
+|---|---|
+| TE01 圆波导弯头 | 波导传输器件 → 波导弯头 / Waveguide Bends |
+| TE10–TE01 模式转换器 | 波导传输器件 → 模式转换器 / Waveguide Mode Converters |
+| TE01 双孔定向耦合器 | 波导无源器件 → 定向耦合器 / Waveguide Directional Couplers |
+
+职业参考：[Electronics Engineers, Except Computer（SOC 17-2072）](https://skillsmp.com/occupations/electronics-engineers-except-computer)。技能的 `metadata` 记录作者建议分类，`description` 提供中英文器件名称，方便识别与检索。
+
+这些是作者维护的分类信息。SkillsMP 的职业和类别标签由平台维护；其公开文档未承诺依据这些自定义字段自动分类。本节不表示网页上的“分类待定”已解除。
+
 ## 你正在遇到这些问题吗？
 
 - **圆波导端口该选哪个模式？** 用场分布和截止条件核对目标 TE₀₁，再读取对应的模态 S 参数。

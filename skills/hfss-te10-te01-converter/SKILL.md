@@ -1,10 +1,14 @@
 ---
 name: hfss-te10-te01-converter
-description: Design, reproduce, inspect, and validate HFSS rectangular TE10 to circular TE01 waveguide mode converters, especially linear cross-shaped converters through TE20 and cross-guide TE22 intermediates. Use for thesis reproduction, modal purity, port cutoff checks, saved-result auditing, dimension optimization, and converter-to-bend interfaces.
+description: "面向射频与微波工程的 HFSS TE10–TE01 波导模式转换器复现、优化与模态验证。 Design, reproduce, inspect, and validate HFSS rectangular TE10 to circular TE01 waveguide mode converters, especially linear cross-shaped converters through TE20 and cross-guide TE22 intermediates. Use for thesis reproduction, modal purity, port cutoff checks, saved-result auditing, dimension optimization, and converter-to-bend interfaces."
 license: MIT
 metadata:
   author: "shao36058-png"
   version: "0.1.0"
+  domain: "Electronics Engineering / 电子工程"
+  specialty: "RF and Microwave Engineering / 射频与微波工程"
+  component: "Waveguide Mode Converters / 波导模式转换器"
+  author-suggested-soc: "17-2072"
 ---
 
 # HFSS TE10 to TE01 Mode Converter

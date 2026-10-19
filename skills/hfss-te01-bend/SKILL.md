@@ -1,10 +1,14 @@
 ---
 name: hfss-te01-bend
-description: Optimize dimensions and validate modal transmission of HFSS TE01 overmoded circular-waveguide 90-degree miter bends using MATLAB candidate screening and actual HFSS feedback. Use for TE01 bend convergence, memory-limited solves, bandwidth acceptance, and reproducible delivery while preserving the requested topology.
+description: "面向射频与微波工程的 HFSS TE01 圆波导弯头尺寸优化与模态传输验证。 Optimize dimensions and validate modal transmission of HFSS TE01 overmoded circular-waveguide 90-degree miter bends using MATLAB candidate screening and actual HFSS feedback. Use for TE01 bend convergence, memory-limited solves, bandwidth acceptance, and reproducible delivery while preserving the requested topology."
 license: MIT
 metadata:
   author: "shao36058-png"
   version: "0.1.0"
+  domain: "Electronics Engineering / 电子工程"
+  specialty: "RF and Microwave Engineering / 射频与微波工程"
+  component: "Waveguide Bends / 波导弯头"
+  author-suggested-soc: "17-2072"
 ---
 
 # HFSS TE01 Circular-Waveguide Bend

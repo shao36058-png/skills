@@ -1,6 +1,11 @@
 ---
 name: hfss-te01-directional-coupler
-description: "在 HFSS 中复刻、调试圆波导 TE01 与正交矩形波导的双孔定向耦合器，核对模态端口、宽壁方向、实际孔中心距、公共壁厚及耦合与隔离结果。适用于弱耦合方向性问题和论文参数复现。"
+description: "在 HFSS 中复刻、调试圆波导 TE01 与正交矩形波导的双孔定向耦合器，核对模态端口、宽壁方向、实际孔中心距、公共壁厚及耦合与隔离结果。适用于弱耦合方向性问题和论文参数复现。 RF and microwave engineering: HFSS TE01 waveguide directional-coupler reproduction, tuning, and modal-result checks."
+metadata:
+  domain: "Electronics Engineering / 电子工程"
+  specialty: "RF and Microwave Engineering / 射频与微波工程"
+  component: "Waveguide Directional Couplers / 波导定向耦合器"
+  author-suggested-soc: "17-2072"
 ---
 
 # HFSS TE01 双孔定向耦合器
